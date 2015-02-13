@@ -1,5 +1,7 @@
 //test
 #include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
+#include <SFML/System.hpp>
 
 int main()
 {
@@ -15,6 +17,8 @@ int main()
 			if (event.type == sf::Event::Closed)
 				window.close();
 		}
+
+		
 
 		window.clear();
 		window.draw(shape);
