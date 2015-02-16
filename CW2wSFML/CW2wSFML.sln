@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CW2wSFML", "CW2wSFML\CW2wSFML.vcxproj", "{840B2E44-FD6E-4AD4-A47E-38BD0F1C1CDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Session4Examples", "Session4Examples\Session4Examples.vcxproj", "{5F48C089-8763-4547-832D-A5F1A8506111}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{840B2E44-FD6E-4AD4-A47E-38BD0F1C1CDF}.Debug|Win32.Build.0 = Debug|Win32
 		{840B2E44-FD6E-4AD4-A47E-38BD0F1C1CDF}.Release|Win32.ActiveCfg = Release|Win32
 		{840B2E44-FD6E-4AD4-A47E-38BD0F1C1CDF}.Release|Win32.Build.0 = Release|Win32
+		{5F48C089-8763-4547-832D-A5F1A8506111}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F48C089-8763-4547-832D-A5F1A8506111}.Debug|Win32.Build.0 = Debug|Win32
+		{5F48C089-8763-4547-832D-A5F1A8506111}.Release|Win32.ActiveCfg = Release|Win32
+		{5F48C089-8763-4547-832D-A5F1A8506111}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
