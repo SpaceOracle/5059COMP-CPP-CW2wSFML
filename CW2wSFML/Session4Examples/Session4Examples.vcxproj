@@ -70,10 +70,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Example 1 Creating and Drawing a sprite.cpp" />
+    <Image Include="mikeTile.png" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="mikeTile.png" />
+    <ClCompile Include="Example 1 Creating and Drawing a sprite.cpp" />
+    <ClCompile Include="Example 2 Moving Mike.cpp" />
+    <ClCompile Include="Example 3 Repeating MIke.cpp" />
+    <ClCompile Include="Example 4 Mike Fades Away.cpp" />
+    <ClCompile Include="Example 5 Rotating Mike.cpp" />
+    <ClCompile Include="Example 6 Mike gets big.cpp" />
+    <ClCompile Include="Example 7 Z order.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
